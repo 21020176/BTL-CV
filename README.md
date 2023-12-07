@@ -42,7 +42,7 @@ Trần Trọng Quân - 21020529
 
 ### Transweather
     ///Training
-
+    python train.py
 
     ///Inference
-
+    python infer_image.py
