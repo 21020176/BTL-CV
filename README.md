@@ -18,9 +18,9 @@ Trần Trọng Quân - 21020529
 > Transweather: https://drive.google.com/file/d/1NdlKxcQHcD2pRjMFLXWbotXyYocPGUIk/view?usp=sharing
 
 ## Data Source (CCTV):
-> Clean data :
+> Clean data : https://drive.google.com/file/d/10J92QNCNdDBMBamvtYVL2snmbeXAQMF6/view
 
-> Unclean data :
+> Unclean data : https://drive.google.com/file/d/1dmqd92DqVcl6v7wYo9d3_b8hY3b3FNH9/view
 
 ## Demo Web:
     https://colab.research.google.com/drive/17eHkYy6l6arivQeBL8VHh3Hz3vuG3qis?usp=sharing
