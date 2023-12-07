@@ -1,9 +1,15 @@
 # Object Detection in Adverse weather conditions
 
+###Members of our team
+
 Nguyễn Duy Phúc - 21020228	
+
 Vũ Hoàng Duy - 21021469	
+
 Phạm Trung Dũng - 21020176	
+
 Nguyễn Vinh Hiển - 21021488	
+
 Trần Trọng Quân - 21020529
 
 ## Model pretrained
