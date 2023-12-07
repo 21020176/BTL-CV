@@ -13,6 +13,8 @@ Nguyễn Vinh Hiển - 21021488
 Trần Trọng Quân - 21020529
 
 ## Model pretrained
+We trained the DETR model on both clean and unclean CCTV dataset. The saved model below have the best performance on the test set that we devided from the annotation file. We also trained the Transweather model with CCTV dataset. The ground truth is the clean data, and we also split the train test as the annotation file.
+
 > Detr (train with clean data) : https://drive.google.com/file/d/1zINGayaMjtbK3iqI7HN2kSXtGBK7NLRL/view?usp=sharing
 
 > Detr (train with unclean data) : https://drive.google.com/file/d/1sCa5fumwXGiqG962BRvKWKZ-K0PJysAG/view?usp=sharing
@@ -48,3 +50,20 @@ Trần Trọng Quân - 21020529
 
     ///Inference
     python infer_image.py
+
+### Transweather dataset format:
+
+        TransWeather
+    ├── data 
+    |   ├── train # Training  
+    |   |   ├── <dataset_name>   
+    |   |   |   ├── input         # unclean images 
+    |   |   |   └── gt            # clean images
+    |   |   └── dataset_filename.txt
+    |   └── test  # Testing         
+    |   |   ├── <dataset_name>          
+    |   |   |   ├── input         # unclean images 
+    |   |   |   └── gt            # clean images
+    |   |   └── dataset_filename.txt
+
+    The txt file is generated from the image directory
