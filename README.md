@@ -14,6 +14,7 @@ Trần Trọng Quân - 21020529
 
 ## Model pretrained
 > Detr (train with clean data) : https://drive.google.com/file/d/1zINGayaMjtbK3iqI7HN2kSXtGBK7NLRL/view?usp=sharing
+
 > Detr (train with unclean data) : https://drive.google.com/file/d/1sCa5fumwXGiqG962BRvKWKZ-K0PJysAG/view?usp=sharing
 
 > Transweather: https://drive.google.com/file/d/1NdlKxcQHcD2pRjMFLXWbotXyYocPGUIk/view?usp=sharing
