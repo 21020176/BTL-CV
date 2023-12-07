@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/workspace/ailab/dungpt/sfa-detr/train.py", line 372, in <module>
+    main(args)
+  File "/workspace/ailab/dungpt/sfa-detr/train.py", line 160, in main
+    model, criterion, postprocessors = build_model(args)
+  File "/workspace/ailab/dungpt/sfa-detr/models/__init__.py", line 14, in build_model
+    return build(args)
+  File "/workspace/ailab/dungpt/sfa-detr/models/deformable_detr.py", line 529, in build
+    backbone = build_backbone(args)
+  File "/workspace/ailab/dungpt/sfa-detr/models/backbone.py", line 141, in build_backbone
+    return_interm_layers, args.dilation)
+  File "/workspace/ailab/dungpt/sfa-detr/models/backbone.py", line 108, in __init__
+    pretrained=is_main_process(), norm_layer=norm_layer)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torchvision/models/resnet.py", line 301, in resnet50
+    **kwargs)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torchvision/models/resnet.py", line 263, in _resnet
+    progress=progress)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/hub.py", line 528, in load_state_dict_from_url
+    return torch.load(cached_file, map_location=map_location)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/serialization.py", line 593, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/serialization.py", line 747, in _legacy_load
+    return legacy_load(f)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/serialization.py", line 672, in legacy_load
+    tar.extract('storages', path=tmpdir)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/tarfile.py", line 2044, in extract
+    numeric_owner=numeric_owner)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/tarfile.py", line 2114, in _extract_member
+    self.makefile(tarinfo, targetpath)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/tarfile.py", line 2163, in makefile
+    copyfileobj(source, target, tarinfo.size, ReadError, bufsize)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/tarfile.py", line 247, in copyfileobj
+    buf = src.read(bufsize)
+KeyboardInterrupt

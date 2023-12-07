@@ -1,0 +1,7 @@
+# ninja log v5
+0	5180	1700847706048216636	/workspace/ailab/dungpt/sfa-detr/models/ops/build/temp.linux-x86_64-cpython-37/workspace/ailab/dungpt/sfa-detr/models/ops/src/cpu/ms_deform_attn_cpu.o	d5ff4660de3a17e6
+0	16384	1700847717260259652	/workspace/ailab/dungpt/sfa-detr/models/ops/build/temp.linux-x86_64-cpython-37/workspace/ailab/dungpt/sfa-detr/models/ops/src/cuda/ms_deform_attn_cuda.o	4064361f9cecf345
+0	20509	1700847721372275428	/workspace/ailab/dungpt/sfa-detr/models/ops/build/temp.linux-x86_64-cpython-37/workspace/ailab/dungpt/sfa-detr/models/ops/src/vision.o	6a7b4428d4778e8b
+9	2973	1700875654712616797	/workspace/ailab/dungpt/sfa-detr/models/ops/build/temp.linux-x86_64-cpython-37/workspace/ailab/dungpt/sfa-detr/models/ops/src/cpu/ms_deform_attn_cpu.o	d5ff4660de3a17e6
+9	10557	1700875662292660829	/workspace/ailab/dungpt/sfa-detr/models/ops/build/temp.linux-x86_64-cpython-37/workspace/ailab/dungpt/sfa-detr/models/ops/src/cuda/ms_deform_attn_cuda.o	6db7357108f9413b
+10	15093	1700875666824687156	/workspace/ailab/dungpt/sfa-detr/models/ops/build/temp.linux-x86_64-cpython-37/workspace/ailab/dungpt/sfa-detr/models/ops/src/vision.o	6a7b4428d4778e8b

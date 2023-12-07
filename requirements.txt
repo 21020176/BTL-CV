@@ -1,0 +1,10 @@
+pycocotools
+tqdm
+cython
+scipy
+timm
+opencv-python
+tqdm
+wandb
+torchmetrics
+scikit-image

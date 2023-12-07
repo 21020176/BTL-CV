@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/workspace/ailab/dungpt/sfa-detr/train.py", line 373, in <module>
+    main(args)
+  File "/workspace/ailab/dungpt/sfa-detr/train.py", line 162, in main
+    model.to(device)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 673, in to
+    return self._apply(convert)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 409, in _apply
+    param_applied = fn(param)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 671, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: out of memory

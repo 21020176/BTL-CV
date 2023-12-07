@@ -1,0 +1,186 @@
+2023-12-01 13:30:00,857 INFO    StreamThr :457871 [internal.py:wandb_internal():89] W&B internal server running at pid: 457871, started at: 2023-12-01 13:30:00.856190
+2023-12-01 13:30:00,861 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: status
+2023-12-01 13:30:00,862 INFO    WriterThread:457871 [datastore.py:open_for_write():85] open: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/run-cx8n97ds.wandb
+2023-12-01 13:30:00,862 DEBUG   SenderThread:457871 [sender.py:send():380] send: header
+2023-12-01 13:30:00,877 DEBUG   SenderThread:457871 [sender.py:send():380] send: run
+2023-12-01 13:30:01,534 INFO    SenderThread:457871 [dir_watcher.py:__init__():211] watching files in: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files
+2023-12-01 13:30:01,534 INFO    SenderThread:457871 [sender.py:_start_run_threads():1127] run started: cx8n97ds with start time 1701408600.854318
+2023-12-01 13:30:01,542 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: check_version
+2023-12-01 13:30:01,543 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: check_version
+2023-12-01 13:30:01,729 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: run_start
+2023-12-01 13:30:01,732 DEBUG   HandlerThread:457871 [system_info.py:__init__():32] System info init
+2023-12-01 13:30:01,732 DEBUG   HandlerThread:457871 [system_info.py:__init__():47] System info init done
+2023-12-01 13:30:01,732 INFO    HandlerThread:457871 [system_monitor.py:start():194] Starting system monitor
+2023-12-01 13:30:01,732 INFO    SystemMonitor:457871 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-01 13:30:01,733 INFO    HandlerThread:457871 [system_monitor.py:probe():214] Collecting system info
+2023-12-01 13:30:01,733 INFO    SystemMonitor:457871 [interfaces.py:start():190] Started cpu monitoring
+2023-12-01 13:30:01,734 INFO    SystemMonitor:457871 [interfaces.py:start():190] Started disk monitoring
+2023-12-01 13:30:01,734 INFO    SystemMonitor:457871 [interfaces.py:start():190] Started gpu monitoring
+2023-12-01 13:30:01,735 INFO    SystemMonitor:457871 [interfaces.py:start():190] Started memory monitoring
+2023-12-01 13:30:01,735 INFO    SystemMonitor:457871 [interfaces.py:start():190] Started network monitoring
+2023-12-01 13:30:01,750 DEBUG   HandlerThread:457871 [system_info.py:probe():196] Probing system
+2023-12-01 13:30:01,757 DEBUG   HandlerThread:457871 [system_info.py:_probe_git():181] Probing git
+2023-12-01 13:30:01,771 DEBUG   HandlerThread:457871 [system_info.py:_probe_git():189] Probing git done
+2023-12-01 13:30:01,771 DEBUG   HandlerThread:457871 [system_info.py:probe():244] Probing system done
+2023-12-01 13:30:01,771 DEBUG   HandlerThread:457871 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-37-generic-x86_64-with-debian-bookworm-sid', 'python': '3.7.16', 'heartbeatAt': '2023-12-01T05:30:01.750581', 'startedAt': '2023-12-01T05:30:00.847680', 'docker': None, 'cuda': None, 'args': ('--batch_size', '2', '--print_feq', '10', '--lr', '0.0001', '--lr_backbone', '0.00001', '--model_type', 'detr-only', '--wandb', 'sfa-detr-weather', '--output_dir', './checkpoints/sfa-detr-weather-2'), 'state': 'running', 'program': '-m train', 'codePathLocal': None, 'git': {'remote': 'https://github.com/qninhdt/sfa-detr', 'commit': 'a044b0c725213db5e4a6e88dc5580b1cec969df0'}, 'email': '21020176@vnu.edu.vn', 'root': '/workspace/ailab/dungpt/sfa-detr', 'host': 'uetkhmt', 'username': 'ailab', 'executable': '/home/ailab/anaconda3/envs/deformable_detr/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3702.90075, 'min': 1200.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 3710.066, 'min': 1200.0, 'max': 3900.0}, {'current': 3700.114, 'min': 1200.0, 'max': 3900.0}, {'current': 3700.008, 'min': 1200.0, 'max': 3900.0}, {'current': 3699.982, 'min': 1200.0, 'max': 3900.0}, {'current': 3699.996, 'min': 1200.0, 'max': 3900.0}, {'current': 3703.851, 'min': 1200.0, 'max': 3900.0}, {'current': 3701.773, 'min': 1200.0, 'max': 3900.0}, {'current': 3698.801, 'min': 1200.0, 'max': 3900.0}], 'disk': {'/': {'total': 467.8876266479492, 'used': 261.1342430114746}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11715608576}], 'memory': {'total': 31.02117156982422}}
+2023-12-01 13:30:01,771 INFO    HandlerThread:457871 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-01 13:30:01,772 INFO    HandlerThread:457871 [system_monitor.py:probe():227] Publishing system info
+2023-12-01 13:30:01,772 DEBUG   HandlerThread:457871 [system_info.py:_save_pip():53] Saving list of pip packages installed into the current environment
+2023-12-01 13:30:01,772 DEBUG   HandlerThread:457871 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-01 13:30:01,772 DEBUG   HandlerThread:457871 [system_info.py:_save_conda():76] Saving list of conda packages installed into the current environment
+2023-12-01 13:30:02,538 INFO    Thread-12 :457871 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/conda-environment.yaml
+2023-12-01 13:30:02,539 INFO    Thread-12 :457871 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/requirements.txt
+2023-12-01 13:30:03,380 DEBUG   HandlerThread:457871 [system_info.py:_save_conda():87] Saving conda packages done
+2023-12-01 13:30:03,382 INFO    HandlerThread:457871 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-01 13:30:03,387 DEBUG   SenderThread:457871 [sender.py:send():380] send: files
+2023-12-01 13:30:03,387 INFO    SenderThread:457871 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-01 13:30:03,393 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-01 13:30:03,393 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: stop_status
+2023-12-01 13:30:03,396 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-01 13:30:03,535 INFO    Thread-12 :457871 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/conda-environment.yaml
+2023-12-01 13:30:03,536 INFO    Thread-12 :457871 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/wandb-metadata.json
+2023-12-01 13:30:03,726 DEBUG   SenderThread:457871 [sender.py:send():380] send: telemetry
+2023-12-01 13:30:04,241 INFO    wandb-upload_0:457871 [upload_job.py:push():131] Uploaded file /tmp/tmpcqq2kg55wandb/95tf6zie-wandb-metadata.json
+2023-12-01 13:30:04,949 DEBUG   SenderThread:457871 [sender.py:send():380] send: exit
+2023-12-01 13:30:04,949 INFO    SenderThread:457871 [sender.py:send_exit():585] handling exit code: 1
+2023-12-01 13:30:04,949 INFO    SenderThread:457871 [sender.py:send_exit():587] handling runtime: 3
+2023-12-01 13:30:04,951 INFO    SenderThread:457871 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-01 13:30:04,951 INFO    SenderThread:457871 [sender.py:send_exit():593] send defer
+2023-12-01 13:30:04,951 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:04,951 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-01 13:30:04,952 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:04,952 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-12-01 13:30:04,952 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 1
+2023-12-01 13:30:04,952 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:04,952 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-01 13:30:04,952 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:04,952 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-12-01 13:30:04,952 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 2
+2023-12-01 13:30:04,953 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:04,953 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-01 13:30:04,953 INFO    HandlerThread:457871 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-01 13:30:04,953 INFO    HandlerThread:457871 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-01 13:30:04,953 INFO    HandlerThread:457871 [interfaces.py:finish():202] Joined disk monitor
+2023-12-01 13:30:04,953 DEBUG   SystemMonitor:457871 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-01 13:30:04,954 DEBUG   SystemMonitor:457871 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-01 13:30:04,954 DEBUG   SystemMonitor:457871 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-01 13:30:05,020 INFO    HandlerThread:457871 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-01 13:30:05,021 INFO    HandlerThread:457871 [interfaces.py:finish():202] Joined memory monitor
+2023-12-01 13:30:05,021 INFO    HandlerThread:457871 [interfaces.py:finish():202] Joined network monitor
+2023-12-01 13:30:05,021 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:05,021 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-12-01 13:30:05,021 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 3
+2023-12-01 13:30:05,021 DEBUG   SenderThread:457871 [sender.py:send():380] send: stats
+2023-12-01 13:30:05,021 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:05,022 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-01 13:30:05,022 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:05,022 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-12-01 13:30:05,022 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 4
+2023-12-01 13:30:05,022 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:05,022 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-01 13:30:05,022 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:05,022 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-12-01 13:30:05,022 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 5
+2023-12-01 13:30:05,022 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:05,022 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-01 13:30:05,023 DEBUG   SenderThread:457871 [sender.py:send():380] send: summary
+2023-12-01 13:30:05,023 INFO    SenderThread:457871 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-01 13:30:05,023 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:05,023 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-12-01 13:30:05,023 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 6
+2023-12-01 13:30:05,023 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:05,024 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-01 13:30:05,024 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:05,024 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-12-01 13:30:05,028 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: status_report
+2023-12-01 13:30:05,297 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 7
+2023-12-01 13:30:05,297 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:05,297 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-01 13:30:05,298 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:05,298 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-12-01 13:30:05,537 INFO    Thread-12 :457871 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/config.yaml
+2023-12-01 13:30:05,538 INFO    Thread-12 :457871 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/wandb-summary.json
+2023-12-01 13:30:05,538 INFO    Thread-12 :457871 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/output.log
+2023-12-01 13:30:05,949 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-01 13:30:06,910 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 8
+2023-12-01 13:30:06,911 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: poll_exit
+2023-12-01 13:30:06,911 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:06,911 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-01 13:30:06,911 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:06,911 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-12-01 13:30:06,911 INFO    SenderThread:457871 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-01 13:30:06,912 INFO    SenderThread:457871 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-12-01 13:30:06,912 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 9
+2023-12-01 13:30:06,912 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:06,912 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-01 13:30:06,912 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:06,912 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-12-01 13:30:06,912 INFO    SenderThread:457871 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-01 13:30:06,950 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-01 13:30:07,538 INFO    Thread-12 :457871 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/output.log
+2023-12-01 13:30:07,539 INFO    SenderThread:457871 [dir_watcher.py:finish():388] scan: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files
+2023-12-01 13:30:07,540 INFO    SenderThread:457871 [dir_watcher.py:finish():402] scan save: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/output.log output.log
+2023-12-01 13:30:07,540 INFO    SenderThread:457871 [dir_watcher.py:finish():402] scan save: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/conda-environment.yaml conda-environment.yaml
+2023-12-01 13:30:07,544 INFO    SenderThread:457871 [dir_watcher.py:finish():402] scan save: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/wandb-metadata.json wandb-metadata.json
+2023-12-01 13:30:07,544 INFO    SenderThread:457871 [dir_watcher.py:finish():402] scan save: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/wandb-summary.json wandb-summary.json
+2023-12-01 13:30:07,547 INFO    SenderThread:457871 [dir_watcher.py:finish():402] scan save: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/requirements.txt requirements.txt
+2023-12-01 13:30:07,547 INFO    SenderThread:457871 [dir_watcher.py:finish():402] scan save: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/config.yaml config.yaml
+2023-12-01 13:30:07,554 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 10
+2023-12-01 13:30:07,554 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: poll_exit
+2023-12-01 13:30:07,554 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:07,556 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-01 13:30:07,557 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:07,557 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-12-01 13:30:07,557 INFO    SenderThread:457871 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-01 13:30:07,951 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-01 13:30:07,952 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: poll_exit
+2023-12-01 13:30:08,046 INFO    wandb-upload_1:457871 [upload_job.py:push():131] Uploaded file /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/output.log
+2023-12-01 13:30:08,211 INFO    wandb-upload_4:457871 [upload_job.py:push():131] Uploaded file /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/requirements.txt
+2023-12-01 13:30:08,219 INFO    wandb-upload_0:457871 [upload_job.py:push():131] Uploaded file /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/config.yaml
+2023-12-01 13:30:08,241 INFO    wandb-upload_3:457871 [upload_job.py:push():131] Uploaded file /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/wandb-summary.json
+2023-12-01 13:30:08,267 INFO    wandb-upload_2:457871 [upload_job.py:push():131] Uploaded file /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/files/conda-environment.yaml
+2023-12-01 13:30:08,468 INFO    Thread-11 :457871 [sender.py:transition_state():613] send defer: 11
+2023-12-01 13:30:08,468 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:08,468 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-01 13:30:08,469 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:08,469 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-12-01 13:30:08,469 INFO    SenderThread:457871 [file_pusher.py:join():181] waiting for file pusher
+2023-12-01 13:30:08,469 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 12
+2023-12-01 13:30:08,469 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:08,469 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-01 13:30:08,470 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:08,470 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-12-01 13:30:08,470 INFO    SenderThread:457871 [file_stream.py:finish():595] file stream finish called
+2023-12-01 13:30:08,803 INFO    SenderThread:457871 [file_stream.py:finish():599] file stream finish is done
+2023-12-01 13:30:08,804 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 13
+2023-12-01 13:30:08,804 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:08,804 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-01 13:30:08,804 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:08,804 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-12-01 13:30:08,805 INFO    SenderThread:457871 [sender.py:transition_state():613] send defer: 14
+2023-12-01 13:30:08,805 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: defer
+2023-12-01 13:30:08,805 INFO    HandlerThread:457871 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-01 13:30:08,805 DEBUG   SenderThread:457871 [sender.py:send():380] send: final
+2023-12-01 13:30:08,806 DEBUG   SenderThread:457871 [sender.py:send():380] send: footer
+2023-12-01 13:30:08,806 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: defer
+2023-12-01 13:30:08,806 INFO    SenderThread:457871 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-12-01 13:30:08,806 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-01 13:30:08,807 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: poll_exit
+2023-12-01 13:30:08,808 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-01 13:30:08,808 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: poll_exit
+2023-12-01 13:30:08,808 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: server_info
+2023-12-01 13:30:08,808 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: server_info
+2023-12-01 13:30:08,811 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-01 13:30:08,811 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-01 13:30:08,811 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-01 13:30:08,812 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: job_info
+2023-12-01 13:30:09,017 DEBUG   SenderThread:457871 [sender.py:send_request():407] send_request: job_info
+2023-12-01 13:30:09,018 INFO    MainThread:457871 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-12-01 13:30:09,018 INFO    MainThread:457871 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-12-01 13:30:09,018 INFO    MainThread:457871 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-12-01 13:30:09,019 DEBUG   HandlerThread:457871 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-01 13:30:09,019 INFO    HandlerThread:457871 [handler.py:finish():866] shutting down handler
+2023-12-01 13:30:09,812 INFO    WriterThread:457871 [datastore.py:close():294] close: /workspace/ailab/dungpt/sfa-detr/wandb/run-20231201_133000-cx8n97ds/run-cx8n97ds.wandb
+2023-12-01 13:30:10,018 INFO    SenderThread:457871 [sender.py:finish():1536] shutting down sender
+2023-12-01 13:30:10,018 INFO    SenderThread:457871 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-01 13:30:10,018 INFO    SenderThread:457871 [file_pusher.py:join():181] waiting for file pusher

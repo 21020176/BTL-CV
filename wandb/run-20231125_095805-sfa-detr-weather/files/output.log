@@ -1,0 +1,23 @@
+Downloading: "https://download.pytorch.org/models/resnet50-19c8e357.pth" to /home/ailab/.cache/torch/hub/checkpoints/resnet50-19c8e357.pth
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████| 97.8M/97.8M [00:08<00:00, 11.6MB/s]
+number of params: 39826962
+Traceback (most recent call last):
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/ailab/anaconda3/envs/deformable_detr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/workspace/ailab/dungpt/sfa-detr/train.py", line 372, in <module>
+    main(args)
+  File "/workspace/ailab/dungpt/sfa-detr/train.py", line 168, in main
+    dataset_train = build_dataset(dataset_type='train', args=args)
+  File "/workspace/ailab/dungpt/sfa-detr/dataset.py", line 131, in build_dataset
+    dataset = BCCTVDataset(dataset_type, args.dataset_path, transformer)
+  File "/workspace/ailab/dungpt/sfa-detr/dataset.py", line 20, in __init__
+    self._load_images(dataset_type)
+  File "/workspace/ailab/dungpt/sfa-detr/dataset.py", line 23, in _load_images
+    annotation = json.load(open(self.data_path / 'annotation.json', 'r'))
+FileNotFoundError: [Errno 2] No such file or directory: 'data/annotation.json'
