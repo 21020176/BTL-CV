@@ -26,6 +26,8 @@ We trained the DETR model on both clean and unclean CCTV dataset. The saved mode
 
 > Unclean data : https://drive.google.com/file/d/1dmqd92DqVcl6v7wYo9d3_b8hY3b3FNH9/view
 
+> Transweather Annotation : https://drive.google.com/file/d/1NvSuTG4mU39serrjOMGFynA6P3ZYRFw6/view?usp=sharing
+
 ## Demo Web:
     https://colab.research.google.com/drive/17eHkYy6l6arivQeBL8VHh3Hz3vuG3qis?usp=sharing
 
